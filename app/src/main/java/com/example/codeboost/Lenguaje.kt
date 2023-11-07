@@ -1,3 +1,3 @@
 package com.example.codeboost
 
-data class Language(val iconResource: Int, val name: String)
+data class Lenguaje(val iconResource: Int, val name: String)

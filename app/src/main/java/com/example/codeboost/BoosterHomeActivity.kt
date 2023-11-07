@@ -14,11 +14,11 @@ class BoosterHomeActivity : AppCompatActivity() {
         val recyclerView: RecyclerView = findViewById(R.id.recyclerViewLenguaje)
 
         val languageList = listOf(
-            Language(R.drawable.python_logo, "Python Data Science"),
-            Language(R.drawable.kotlin_logo, "Kotlin + Jetpack"),
-            Language(R.drawable.github_logo, "Git Bash"),
-            Language(R.drawable.robot, "Java Avanzado"),
-            Language(R.drawable.robot, "Typescript"),
+            Lenguaje(R.drawable.python_logo, "Python Data Science"),
+            Lenguaje(R.drawable.kotlin_logo, "Kotlin + Jetpack"),
+            Lenguaje(R.drawable.github_logo, "Git Bash"),
+            Lenguaje(R.drawable.robot, "Java Avanzado"),
+            Lenguaje(R.drawable.robot, "Typescript"),
         )
 
         val adapter = LanguageAdapter(languageList)

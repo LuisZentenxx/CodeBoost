@@ -24,14 +24,14 @@ class HomeActivity : AppCompatActivity() {
         cardBooster = findViewById(R.id.cardBooster)
 
         cardBeginner.setOnClickListener{
-            Toast.makeText(this, "Mucho éxito!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Mucho éxito!", Toast.LENGTH_LONG).show()
             intent = Intent(this, BeginnerHomeActivity::class.java)
             startActivity(intent)
             finish()
         }
 
         cardBooster.setOnClickListener{
-            Toast.makeText(this, "Éxito Booster!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Éxito Booster!", Toast.LENGTH_LONG).show()
             intent = Intent(this, BoosterHomeActivity::class.java)
             startActivity(intent)
             finish()
