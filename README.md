@@ -37,8 +37,28 @@
 - `implementation("com.google.android.gms:play-services-auth:20.7.0")`
 
 
-### Requisitos Mínimos para Ejecutar la Aplicación
+## Requisitos Mínimos para Ejecutar la Aplicación
 
 Para ejecutar la aplicación en un dispositivo o emulador, necesitas:
 
 - API 24: Android 7.0 (Nougat) o superior
+
+## Vistas
+
+<table>
+  <tr> 
+    <td><img src="screenshoots/main.png" alt="main view" width="400"></td>
+    <td><img src="screenshoots/registro.png" alt="register view" width="400"></td>
+    <td><img src="screenshoots/login.png" alt="CodeBoost Logo" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshoots/level.png" alt="CodeBoost Logo" width="400"></td>
+     <td><img src="screenshoots/beginerMenu.png" alt="CodeBoost Logo" width="400"></td>
+    <td><img src="screenshoots/boosterMenu.png" alt="CodeBoost Logo" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshoots/firebase.png" alt="CodeBoost Logo" width="400"></td>
+    <td><img src="screenshoots/gradleApp.png" alt="CodeBoost Logo" width="400"></td>
+     <td><img src="screenshoots/JsonGoogle.png" alt="CodeBoost Logo" width="400"></td>
+  </tr>
+</table>
