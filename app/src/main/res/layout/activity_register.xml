@@ -15,7 +15,8 @@
         android:id="@+id/txtTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="CREAR CUENTA CODEBOOST"
+        android:text="Crear una cuenta CodeBoost"
+        android:fontFamily="@font/bold"
         android:textColor="@color/design_default_color_on_primary"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +51,9 @@
             android:layout_height="wrap_content"
             android:lines="1"
             android:textColor="@color/design_default_color_on_primary"
-            android:hint="Nombre de Usuario" />
+            android:hint="Nombre de Usuario"
+            android:fontFamily="@font/regular"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Campo de Correo Electrónico -->
@@ -68,7 +71,9 @@
             android:layout_height="wrap_content"
             android:lines="1"
             android:textColor="@color/design_default_color_on_primary"
-            android:hint="Correo Electrónico" />
+            android:hint="Correo Electrónico"
+            android:fontFamily="@font/regular"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Campo de Contraseña -->
@@ -118,6 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Confirmar Contraseña"
+            android:fontFamily="@font/regular"
             android:inputType="textPassword"
             android:lines="1"
             android:textColor="@color/design_default_color_on_primary"
@@ -131,6 +137,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Registrarse"
+        android:fontFamily="@font/bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
